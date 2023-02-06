@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Personal Learnings
+### Class names needs to have first letter in Caps
+### Passing props is how information flows in React apps, from parents to children.
+###  To “remember” things, components use state and the state should be private to that component
+### to inspect React Components we can install React Dev Tools
+### To collect data from multiple children, or to have two child components communicate with each other, you need to declare the shared state in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component.
+### in case of render components that need not maintain its own state we can use functions to return the UI to render
